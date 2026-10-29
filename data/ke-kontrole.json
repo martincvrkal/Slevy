@@ -1,1 +1,137 @@
-[]
+[
+ {
+  "chain": "kaufland",
+  "name": "Kotányi Cukr",
+  "price": 6.9,
+  "orig": 9.9,
+  "pct": 30,
+  "card": null,
+  "q": 0.02,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-10-29",
+  "to": "2026-11-03",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00098075",
+  "p": "cukr",
+  "problems": [
+   "cena 345.00 Kč/kg mimo rozsah 10–70"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Moravský vaječný tradiční Alkoholický nápoj různé druhy",
+  "price": 89.9,
+  "orig": 139.9,
+  "pct": 35,
+  "card": null,
+  "q": 0.5,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-10-29",
+  "to": "2026-11-03",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00114060",
+  "p": "vejce",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Beba Kojenecké mléko",
+  "price": 209.9,
+  "orig": 259.9,
+  "pct": 19,
+  "card": null,
+  "q": 0.5,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-10-29",
+  "to": "2026-11-03",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20176456",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "SILVERCREST Strojek na těstoviny",
+  "price": 269.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "ks",
+  "perUnit": true,
+  "from": "2026-10-29",
+  "to": "2026-11-03",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20920513",
+  "p": "testoviny",
+  "problems": [
+   "neočekávaná jednotka ks"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "SILVERCREST Chlebník",
+  "price": 449.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "ks",
+  "perUnit": true,
+  "from": "2026-10-29",
+  "to": "2026-11-03",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20969645",
+  "p": "chleb",
+  "problems": [
+   "neočekávaná jednotka ks"
+  ]
+ }
+]
