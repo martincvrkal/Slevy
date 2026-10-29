@@ -1,0 +1,9 @@
+{
+  "_info": "Prodejny řetězců, které nemají veřejný seznam se souřadnicemi. Kaufland a Penny se načítají automaticky z jejich webů.",
+  "branches": [
+    { "id": "lidl:nachod-plhovska", "chain": "lidl", "where": "Náchod, Plhovská 2066", "lat": 50.4189, "lng": 16.1675 },
+    { "id": "albert:nachod-bri-capku", "chain": "albert", "kind": "super", "where": "Náchod, Bří Čapků 1764", "lat": 50.4090, "lng": 16.1585 },
+    { "id": "albert:nachod-polska", "chain": "albert", "kind": "hyper", "where": "Náchod, Polská 105 (hypermarket)", "lat": 50.4274, "lng": 16.1954 },
+    { "id": "albert:nmnm-tgm", "chain": "albert", "kind": "super", "where": "Nové Město n. M., T. G. Masaryka 2001", "lat": 50.3594, "lng": 16.1475 }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "updated": "2026-10-29T10:24+00:00",
+ "sources": {
+  "kaufland": {
+   "ok": true,
+   "count": 15,
+   "warning": null
+  },
+  "penny": {
+   "ok": true,
+   "count": 4,
+   "warning": null
+  },
+  "lidl": {
+   "ok": true,
+   "count": 0,
+   "warning": null
+  }
+ },
+ "log": []
+}

@@ -1,0 +1,585 @@
+{
+ "updated": "2026-10-29T10:24+00:00",
+ "today": "2026-10-29",
+ "area": {
+  "name": "Náchodsko",
+  "center": {
+   "lat": 50.4167,
+   "lng": 16.1629
+  },
+  "radius_km": 25
+ },
+ "towns": [
+  {
+   "id": "nachod",
+   "name": "Náchod",
+   "lat": 50.4167,
+   "lng": 16.1629
+  },
+  {
+   "id": "hronov",
+   "name": "Hronov",
+   "lat": 50.4797,
+   "lng": 16.1822
+  },
+  {
+   "id": "nmnm",
+   "name": "Nové Město nad Metují",
+   "lat": 50.3446,
+   "lng": 16.1515
+  },
+  {
+   "id": "skalice",
+   "name": "Česká Skalice",
+   "lat": 50.3947,
+   "lng": 16.0436
+  },
+  {
+   "id": "kostelec",
+   "name": "Červený Kostelec",
+   "lat": 50.4763,
+   "lng": 16.093
+  }
+ ],
+ "chains": {
+  "kaufland": {
+   "name": "Kaufland",
+   "card": "Kaufland Card XTRA"
+  },
+  "penny": {
+   "name": "Penny",
+   "card": "Moje PENNY"
+  },
+  "lidl": {
+   "name": "Lidl",
+   "card": "Lidl Plus"
+  },
+  "albert": {
+   "name": "Albert",
+   "card": "Můj Albert"
+  }
+ },
+ "products": [
+  {
+   "id": "maslo",
+   "label": "Máslo",
+   "stems": [
+    "masl",
+    "maslic"
+   ]
+  },
+  {
+   "id": "mleko",
+   "label": "Mléko",
+   "stems": [
+    "mlek",
+    "mlik"
+   ]
+  },
+  {
+   "id": "vejce",
+   "label": "Vejce",
+   "stems": [
+    "vejc",
+    "vajic",
+    "vajec"
+   ]
+  },
+  {
+   "id": "chleb",
+   "label": "Chléb",
+   "stems": [
+    "chleb",
+    "chlib"
+   ]
+  },
+  {
+   "id": "rohliky",
+   "label": "Rohlíky",
+   "stems": [
+    "rohlik",
+    "pecivo"
+   ]
+  },
+  {
+   "id": "mouka",
+   "label": "Mouka",
+   "stems": [
+    "mouk"
+   ]
+  },
+  {
+   "id": "cukr",
+   "label": "Cukr",
+   "stems": [
+    "cukr"
+   ]
+  },
+  {
+   "id": "kava",
+   "label": "Káva",
+   "stems": [
+    "kav",
+    "kafe"
+   ]
+  },
+  {
+   "id": "caj",
+   "label": "Čaj",
+   "stems": [
+    "caj"
+   ]
+  },
+  {
+   "id": "olej",
+   "label": "Olej",
+   "stems": [
+    "olej"
+   ]
+  },
+  {
+   "id": "ryze",
+   "label": "Rýže",
+   "stems": [
+    "ryz"
+   ]
+  },
+  {
+   "id": "testoviny",
+   "label": "Těstoviny",
+   "stems": [
+    "testovin",
+    "spaget",
+    "makaron"
+   ]
+  },
+  {
+   "id": "brambory",
+   "label": "Brambory",
+   "stems": [
+    "brambor",
+    "zemak"
+   ]
+  },
+  {
+   "id": "jablka",
+   "label": "Jablka",
+   "stems": [
+    "jabl"
+   ]
+  },
+  {
+   "id": "banany",
+   "label": "Banány",
+   "stems": [
+    "banan"
+   ]
+  },
+  {
+   "id": "kureci-prsa",
+   "label": "Kuřecí prsa",
+   "stems": [
+    "kure",
+    "kurec",
+    "prsa",
+    "rizek",
+    "drubez"
+   ]
+  },
+  {
+   "id": "kure",
+   "label": "Kuře celé",
+   "stems": [
+    "kure",
+    "kurat",
+    "drubez"
+   ]
+  },
+  {
+   "id": "veprove",
+   "label": "Vepřové maso",
+   "stems": [
+    "vepr",
+    "krkovic",
+    "kyta",
+    "plec",
+    "maso"
+   ]
+  },
+  {
+   "id": "sunka",
+   "label": "Šunka",
+   "stems": [
+    "sunk"
+   ]
+  },
+  {
+   "id": "parky",
+   "label": "Párky",
+   "stems": [
+    "park",
+    "parek",
+    "parec"
+   ]
+  },
+  {
+   "id": "syr",
+   "label": "Sýr",
+   "stems": [
+    "syr",
+    "sir",
+    "eidam",
+    "gouda",
+    "hermelin",
+    "leerdam"
+   ]
+  },
+  {
+   "id": "jogurt",
+   "label": "Jogurt",
+   "stems": [
+    "jogurt"
+   ]
+  },
+  {
+   "id": "tvaroh",
+   "label": "Tvaroh",
+   "stems": [
+    "tvaroh"
+   ]
+  },
+  {
+   "id": "pomazankove",
+   "label": "Pomazánkové máslo",
+   "stems": [
+    "pomazank"
+   ]
+  }
+ ],
+ "branches": [
+  {
+   "id": "lidl:nachod-plhovska",
+   "chain": "lidl",
+   "where": "Náchod, Plhovská 2066",
+   "lat": 50.4189,
+   "lng": 16.1675
+  },
+  {
+   "id": "albert:nachod-bri-capku",
+   "chain": "albert",
+   "kind": "super",
+   "where": "Náchod, Bří Čapků 1764",
+   "lat": 50.409,
+   "lng": 16.1585
+  },
+  {
+   "id": "albert:nachod-polska",
+   "chain": "albert",
+   "kind": "hyper",
+   "where": "Náchod, Polská 105 (hypermarket)",
+   "lat": 50.4274,
+   "lng": 16.1954
+  },
+  {
+   "id": "albert:nmnm-tgm",
+   "chain": "albert",
+   "kind": "super",
+   "where": "Nové Město n. M., T. G. Masaryka 2001",
+   "lat": 50.3594,
+   "lng": 16.1475
+  },
+  {
+   "id": "kaufland:CZ1410",
+   "chain": "kaufland",
+   "where": "Náchod, Polská 379",
+   "lat": 50.4239,
+   "lng": 16.1915
+  },
+  {
+   "id": "penny:1",
+   "chain": "penny",
+   "where": "Náchod, Pražská",
+   "lat": 50.4086,
+   "lng": 16.1581
+  }
+ ],
+ "offers": [
+  {
+   "chain": "kaufland",
+   "name": "Banány",
+   "price": 21.9,
+   "orig": 39.9,
+   "pct": 45,
+   "card": null,
+   "q": 1.0,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-30",
+   "to": "2026-11-01",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "09700883",
+   "p": "banany"
+  },
+  {
+   "chain": "kaufland",
+   "name": "K-Jarmark Brambory žluté pozdní varný typ: B",
+   "price": 64.9,
+   "orig": 89.9,
+   "pct": 27,
+   "card": null,
+   "q": 5.0,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00153719",
+   "p": "brambory"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Jihlavanka Extra jemná Mletá káva",
+   "price": 49.9,
+   "orig": 109.9,
+   "pct": 55,
+   "card": null,
+   "q": 0.15,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "02407631",
+   "p": "kava"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Milko Bio máslo",
+   "price": 39.9,
+   "orig": 49.9,
+   "pct": 20,
+   "card": null,
+   "q": 0.15,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-07",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00108144",
+   "p": "maslo"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Bohemilk Máslo",
+   "price": 29.9,
+   "orig": null,
+   "pct": null,
+   "card": 27.9,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-02",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00120374",
+   "p": "maslo"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Pragolaktos Mléko trvanlivé",
+   "price": 10.9,
+   "orig": null,
+   "pct": null,
+   "card": 9.9,
+   "q": 1.0,
+   "u": "l",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00122424",
+   "p": "mleko"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Babiččina volba Mouka hladká",
+   "price": 39.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 2.0,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00148856",
+   "p": "mouka"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Rýže parboiled Lagris",
+   "price": 34.9,
+   "orig": 72.9,
+   "pct": 52,
+   "card": null,
+   "q": 1.0,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "04002951",
+   "p": "ryze"
+  },
+  {
+   "chain": "penny",
+   "name": "Šunka nejvyšší jakosti Řezníkův talíř",
+   "price": 19.9,
+   "orig": 31.9,
+   "pct": 38,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-300003",
+   "p": "sunka"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Jaroměřický Tvaroh měkký",
+   "price": 20.0,
+   "orig": 38.9,
+   "pct": 48,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00410061",
+   "p": "tvaroh"
+  },
+  {
+   "chain": "penny",
+   "name": "Vejce čerstvá M z podestýlky Karlova Koruna",
+   "price": 29.9,
+   "orig": 49.9,
+   "pct": 40,
+   "card": null,
+   "q": 10.0,
+   "u": "ks",
+   "perUnit": false,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-300602",
+   "p": "vejce"
+  },
+  {
+   "chain": "kaufland",
+   "name": "K-Mistři od fochu Vepřová kýta pultový prodej",
+   "price": 59.9,
+   "orig": 156.9,
+   "pct": 62,
+   "card": null,
+   "q": 1.0,
+   "u": "kg",
+   "perUnit": true,
+   "from": "2026-10-29",
+   "to": "2026-11-03",
+   "limit": "Jen u masového pultu",
+   "stores": [
+    "kaufland:CZ1410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "63000146",
+   "p": "veprove"
+  }
+ ],
+ "sources": {
+  "kaufland": {
+   "ok": true,
+   "count": 15,
+   "warning": null
+  },
+  "penny": {
+   "ok": true,
+   "count": 4,
+   "warning": null
+  },
+  "lidl": {
+   "ok": true,
+   "count": 0,
+   "warning": null
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "area": {
+    "name": "Náchodsko",
+    "center": { "lat": 50.4167, "lng": 16.1629 },
+    "radius_km": 25
+  },
+  "towns": [
+    { "id": "nachod", "name": "Náchod", "lat": 50.4167, "lng": 16.1629 },
+    { "id": "hronov", "name": "Hronov", "lat": 50.4797, "lng": 16.1822 },
+    { "id": "nmnm", "name": "Nové Město nad Metují", "lat": 50.3446, "lng": 16.1515 },
+    { "id": "skalice", "name": "Česká Skalice", "lat": 50.3947, "lng": 16.0436 },
+    { "id": "kostelec", "name": "Červený Kostelec", "lat": 50.4763, "lng": 16.0930 }
+  ],
+  "chains": {
+    "kaufland": { "name": "Kaufland", "card": "Kaufland Card XTRA" },
+    "penny": { "name": "Penny", "card": "Moje PENNY" },
+    "lidl": { "name": "Lidl", "card": "Lidl Plus" },
+    "albert": { "name": "Albert", "card": "Můj Albert" }
+  },
+  "vision": {
+    "model": "claude-sonnet-5-5",
+    "max_pages_per_run": 80
+  }
+}

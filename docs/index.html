@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Akce v okolí Náchoda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one narrow column like a shopping slip — question on top, answer cards below, nothing beside them. */
+:root {
+  --bg: #ffffff;
+  --surface: #f2f5f8;
+  --ink: #14212e;
+  --muted: #4a5a6a;
+  --line: #c9d3dd;
+  --accent: #0a58a8;
+  --accent-ink: #ffffff;
+  --good: #146c2e;
+  --good-bg: #e3f3e7;
+  --warn: #8a4b00;
+  --warn-bg: #fff2dc;
+  --font: "Atkinson Hyperlegible", "Verdana", "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f171f; --surface: #18232e; --ink: #f1f5f9; --muted: #b6c3cf; --line: #34485b;
+    --accent: #7db8f5; --accent-ink: #0b1620; --good: #7fdc98; --good-bg: #163222;
+    --warn: #ffc670; --warn-bg: #3a2a10; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f171f; --surface: #18232e; --ink: #f1f5f9; --muted: #b6c3cf; --line: #34485b;
+  --accent: #7db8f5; --accent-ink: #0b1620; --good: #7fdc98; --good-bg: #163222;
+  --warn: #ffc670; --warn-bg: #3a2a10; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font);
+  font-size: 20px; line-height: 1.45;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 40px;
+}
+.wrap { max-width: 34rem; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+h1 { font-size: 1.6rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+.lead { margin: 4px 0 0; color: var(--muted); }
+label.big { display: block; font-weight: 700; font-size: 1.15rem; margin-bottom: 8px; }
+.searchrow { display: flex; gap: 10px; }
+input[type="search"] {
+  flex: 1; min-width: 0; font: inherit; font-size: 1.3rem; padding: 14px 16px;
+  border: 3px solid var(--ink); border-radius: 12px; background: var(--bg); color: var(--ink);
+}
+button { font: inherit; cursor: pointer; }
+.go {
+  font-size: 1.2rem; font-weight: 700; padding: 0 22px; border-radius: 12px;
+  border: 0; background: var(--accent); color: var(--accent-ink); min-height: 60px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.chip {
+  font-size: 1.05rem; padding: 10px 16px; min-height: 50px; border-radius: 999px;
+  border: 2px solid var(--line); background: var(--surface); color: var(--ink);
+}
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent); color: var(--accent-ink); font-weight: 700; }
+:focus-visible { outline: 4px solid var(--accent); outline-offset: 3px; }
+.place {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: var(--surface); border-radius: 12px; padding: 14px 16px;
+}
+.place strong { font-size: 1.15rem; }
+.link { background: none; border: 0; color: var(--accent); text-decoration: underline; font-size: 1.05rem; padding: 8px 0; min-height: 44px; }
+.panel { border: 2px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.panel h2 { font-size: 1.1rem; margin: 0; }
+.answer { display: flex; flex-direction: column; gap: 14px; }
+.answer h2 { font-size: 1.35rem; margin: 0; text-wrap: balance; }
+.offer { border: 2px solid var(--line); border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; }
+.offer.best { border: 4px solid var(--good); }
+.badge { align-self: flex-start; background: var(--good); color: var(--bg); font-weight: 700; font-size: 1rem; padding: 3px 12px; border-radius: 999px; margin-bottom: 4px; }
+.shop { font-weight: 700; font-size: 1.2rem; margin: 0; }
+.where { color: var(--muted); margin: 0; font-size: 1.05rem; }
+.item { margin: 6px 0 0; }
+.price { font-size: 2.1rem; font-weight: 700; margin: 0; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.unit { margin: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+.valid { margin: 6px 0 0; font-weight: 700; }
+.valid.soon { color: var(--warn); }
+.save { margin: 0; color: var(--good); }
+.cond { margin: 6px 0 0; background: var(--warn-bg); color: var(--warn); padding: 8px 12px; border-radius: 8px; font-size: 1.02rem; }
+.later h3 { font-size: 1.15rem; margin: 6px 0 0; }
+.empty { background: var(--surface); border-radius: 14px; padding: 18px; }
+.empty p { margin: 0 0 6px; }
+.choose { display: flex; flex-wrap: wrap; gap: 10px; }
+footer { color: var(--muted); font-size: 0.95rem; border-top: 2px solid var(--line); padding-top: 14px; }
+footer p { margin: 0 0 8px; }
+@media (prefers-reduced-motion: no-preference) { .offer { animation: rise .25s ease-out; } }
+@keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Kde je to teď v akci?</h1>
+    <p class="lead">Napište, co chcete koupit. Ukážu obchod, cenu a do kdy akce platí.</p>
+  </header>
+
+  <form id="f" autocomplete="off">
+    <label class="big" for="q">Co hledáte?</label>
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="například máslo" enterkeyhint="search">
+      <button class="go" type="submit">Hledat</button>
+    </div>
+    <div class="chips" id="quick" aria-label="Rychlá volba"></div>
+  </form>
+
+  <div class="place" id="placeBar">
+    <div><span>Hledám v okolí:</span><br><strong id="placeText">Náchod, do 10 km</strong></div>
+    <button class="link" id="changePlace" type="button" aria-expanded="false" aria-controls="placePanel">Změnit místo</button>
+  </div>
+
+  <div class="panel" id="placePanel" hidden>
+    <h2>Kde bydlíte?</h2>
+    <div class="chips" id="towns"></div>
+    <h2>Jak daleko můžete jet?</h2>
+    <div class="chips" id="radii"></div>
+  </div>
+
+  <section class="answer" id="answer" aria-live="polite"></section>
+
+  <footer>
+    <p id="dataNote">Načítám aktuální akce…</p>
+    <p>Ceny jsou z webů a letáků obchodů. Akce platí, dokud zásoby stačí.</p>
+  </footer>
+</div>
+
+<script>
+const DAYS = ['neděle', 'pondělí', 'úterý', 'středa', 'čtvrtek', 'pátek', 'sobota'];
+const DAYS_FROM = ['neděle', 'pondělí', 'úterý', 'středy', 'čtvrtka', 'pátku', 'soboty'];
+const UNIT_WORD = { kg: 'kilo', l: 'litr', ks: 'kus' };
+const RADII = [5, 10, 20];
+const QUICK = ['maslo', 'mleko', 'vejce', 'chleb', 'kava', 'brambory', 'jablka', 'kureci-prsa'];
+
+let DATA = null;
+const today = iso(new Date());
+
+function iso(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+function parse(s) { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); }
+function dayText(s) { const d = parse(s); return DAYS[d.getDay()] + ' ' + d.getDate() + '. ' + (d.getMonth() + 1) + '.'; }
+function dayFromText(s) { const d = parse(s); return DAYS_FROM[d.getDay()] + ' ' + d.getDate() + '. ' + (d.getMonth() + 1) + '.'; }
+function kc(n) { return n.toFixed(2).replace('.', ',').replace(',00', '') + ' Kč'; }
+function km(n) { return n < 1 ? 'méně než 1 km' : n.toFixed(1).replace('.', ',').replace(',0', '') + ' km'; }
+function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim(); }
+function dist(a, b) {
+  const r = Math.PI / 180, dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLng / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+const state = { town: 'nachod', radius: 10, product: null };
+try {
+  const saved = JSON.parse(localStorage.getItem('akce-misto') || '{}');
+  if (saved.town) state.town = saved.town;
+  if (RADII.includes(saved.radius)) state.radius = saved.radius;
+} catch (e) {}
+function save() { try { localStorage.setItem('akce-misto', JSON.stringify({ town: state.town, radius: state.radius })); } catch (e) {} }
+
+const $ = id => document.getElementById(id);
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function chainName(c) { return (DATA.chains[c] && DATA.chains[c].name) || c; }
+function cardName(c) { return (DATA.chains[c] && DATA.chains[c].card) || 'věrnostní kartou'; }
+function unitPrice(o) { return o.price / o.q; }
+function currentTown() { return DATA.towns.find(t => t.id === state.town) || DATA.towns[0]; }
+
+function nearestBranch(offer, town) {
+  let best = null, count = 0;
+  for (const b of DATA.branches) {
+    if (b.chain !== offer.chain) continue;
+    if (offer.only && b.kind !== offer.only) continue;
+    if (offer.stores && !offer.stores.includes(b.id)) continue;
+    const d = dist(town, b);
+    if (d > state.radius) continue;
+    count++;
+    if (!best || d < best.d) best = { b, d };
+  }
+  return best ? { ...best, count } : null;
+}
+
+function offerCard(o, near, best) {
+  const art = el('article', 'offer' + (best ? ' best' : ''));
+  if (best) art.append(el('span', 'badge', 'Nejlevněji'));
+  art.append(el('p', 'shop', chainName(o.chain)));
+  let where = near.b.where + ' · ' + km(near.d);
+  if (near.count > 1) where += ' (a další ' + (near.count - 1) + ' v okolí)';
+  art.append(el('p', 'where', where));
+  art.append(el('p', 'item', o.name));
+  const perKilo = o.perUnit && o.q === 1;
+  art.append(el('p', 'price', kc(o.price) + (perKilo ? ' za ' + UNIT_WORD[o.u] : '')));
+  if (!perKilo && o.q) art.append(el('p', 'unit', 'Vychází na ' + kc(unitPrice(o)) + ' za ' + UNIT_WORD[o.u]));
+  const future = o.from > today;
+  let v;
+  if (future) v = 'V akci až od ' + dayFromText(o.from) + ' do ' + dayText(o.to);
+  else if (o.to === today) v = 'Platí jen dnes';
+  else v = 'Platí do ' + dayText(o.to);
+  art.append(el('p', 'valid' + (future ? ' soon' : ''), v));
+  if (o.orig) art.append(el('p', 'save', 'Obvykle ' + kc(o.orig) + ', ušetříte ' + kc(o.orig - o.price)));
+  else if (o.pct) art.append(el('p', 'save', 'Sleva ' + o.pct + ' %'));
+  if (o.card) art.append(el('p', 'cond', 'S kartou ' + cardName(o.chain) + ' v telefonu jen ' + kc(o.card) + '. Bez karty platíte ' + kc(o.price) + '.'));
+  if (o.limit) art.append(el('p', 'cond', o.limit));
+  return art;
+}
+
+function findProducts(text) {
+  const words = norm(text).split(/\s+/).filter(w => w.length >= 2);
+  if (!words.length) return [];
+  return DATA.products.filter(p => p.stems.some(s => words.some(w => w.startsWith(s) || (w.length >= 3 && s.startsWith(w)))));
+}
+
+function render() {
+  const town = currentTown();
+  $('placeText').textContent = town.name + ', do ' + state.radius + ' km';
+  document.querySelectorAll('#towns .chip').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.id === town.id)));
+  document.querySelectorAll('#radii .chip').forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.r) === state.radius)));
+  document.querySelectorAll('#quick .chip').forEach(b => b.setAttribute('aria-pressed', String(!!state.product && b.dataset.id === state.product.id)));
+
+  const box = $('answer');
+  box.replaceChildren();
+  const p = state.product;
+  if (!p) return;
+
+  const rows = [];
+  for (const o of DATA.offers.filter(o => o.p === p.id && o.to >= today && o.q)) {
+    const near = nearestBranch(o, town);
+    if (near) rows.push({ o, near });
+  }
+  const now = rows.filter(r => r.o.from <= today).sort((a, b) => unitPrice(a.o) - unitPrice(b.o) || a.near.d - b.near.d);
+  const later = rows.filter(r => r.o.from > today).sort((a, b) => a.o.from.localeCompare(b.o.from));
+
+  if (now.length) {
+    box.append(el('h2', null, p.label + ': ' + (now.length === 1 ? 'v akci je teď 1 nabídka' : 'v akci je teď ' + now.length + ' nabídek')));
+    now.forEach((r, i) => box.append(offerCard(r.o, r.near, i === 0 && now.length > 1)));
+  } else {
+    const empty = el('div', 'empty');
+    empty.append(el('p', null, p.label + ' teď v okolí v akci není.'));
+    const past = DATA.offers.filter(o => o.p === p.id && o.to < today && nearestBranch(o, town)).sort((a, b) => b.to.localeCompare(a.to))[0];
+    if (past) empty.append(el('p', null, 'Naposledy bylo v akci v obchodě ' + chainName(past.chain) + ' za ' + kc(past.price) + ', do ' + dayText(past.to) + '.'));
+    box.append(empty);
+  }
+  if (later.length) {
+    const wrap = el('div', 'later');
+    wrap.append(el('h3', null, 'Brzy bude v akci'));
+    box.append(wrap);
+    later.forEach(r => box.append(offerCard(r.o, r.near, false)));
+  }
+}
+
+function choose(text) {
+  const found = findProducts(text);
+  const box = $('answer');
+  if (found.length === 1) { state.product = found[0]; render(); return; }
+  state.product = null; render();
+  if (!found.length) {
+    const empty = el('div', 'empty');
+    empty.append(el('p', null, 'Tohle zatím neumím najít. Zkuste třeba máslo, mléko, vejce nebo kávu.'));
+    box.append(empty);
+    return;
+  }
+  box.append(el('h2', null, 'Myslíte:'));
+  const c = el('div', 'choose');
+  found.forEach(p => {
+    const b = el('button', 'chip', p.label); b.type = 'button';
+    b.addEventListener('click', () => { $('q').value = p.label; state.product = p; render(); });
+    c.append(b);
+  });
+  box.append(c);
+}
+
+function setup() {
+  QUICK.forEach(id => {
+    const p = DATA.products.find(x => x.id === id);
+    if (!p) return;
+    const b = el('button', 'chip', p.label); b.type = 'button'; b.dataset.id = id;
+    b.addEventListener('click', () => { $('q').value = p.label; state.product = p; render(); });
+    $('quick').append(b);
+  });
+  DATA.towns.forEach(t => {
+    const b = el('button', 'chip', t.name); b.type = 'button'; b.dataset.id = t.id;
+    b.addEventListener('click', () => { state.town = t.id; save(); render(); });
+    $('towns').append(b);
+  });
+  RADII.forEach(r => {
+    const b = el('button', 'chip', 'do ' + r + ' km'); b.type = 'button'; b.dataset.r = r;
+    b.addEventListener('click', () => { state.radius = r; save(); render(); });
+    $('radii').append(b);
+  });
+  $('changePlace').addEventListener('click', () => {
+    const panel = $('placePanel'); panel.hidden = !panel.hidden;
+    $('changePlace').setAttribute('aria-expanded', String(!panel.hidden));
+    $('changePlace').textContent = panel.hidden ? 'Změnit místo' : 'Hotovo';
+  });
+  $('f').addEventListener('submit', e => { e.preventDefault(); choose($('q').value); });
+
+  const upd = new Date(DATA.updated);
+  const chains = Object.keys(DATA.sources || {}).filter(c => DATA.sources[c].ok && DATA.sources[c].count > 0).map(chainName);
+  let note = 'Aktualizováno ' + upd.getDate() + '. ' + (upd.getMonth() + 1) + '. v ' + upd.getHours() + ':' + String(upd.getMinutes()).padStart(2, '0') + '.';
+  if (chains.length) note += ' Obchody: ' + chains.join(', ') + '.';
+  if ((Date.now() - upd.getTime()) > 3 * 864e5) note += ' Pozor, data jsou starší než 3 dny.';
+  $('dataNote').textContent = note;
+
+  $('q').value = 'máslo';
+  state.product = DATA.products.find(p => p.id === 'maslo') || null;
+  render();
+}
+
+fetch('data/akce.json', { cache: 'no-cache' })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { DATA = d; setup(); })
+  .catch(() => {
+    $('dataNote').textContent = 'Akce se teď nepodařilo načíst. Zkuste stránku obnovit za chvíli.';
+  });
+</script>
+</body>
+</html>
