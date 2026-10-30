@@ -1,9 +1,9 @@
 {
- "updated": "2026-10-29T10:45+00:00",
+ "updated": "2026-10-30T04:54+00:00",
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 862,
+   "count": 860,
    "warning": null
   },
   "penny": {
@@ -19,7 +19,7 @@
  },
  "log": [
   "Kaufland: 3 prodejen v okolí",
-  "Kaufland: 879 akcí na webu, 862 platí v okolí",
+  "Kaufland: 877 akcí na webu, 860 platí v okolí",
   "Penny: 13 prodejen v okolí",
   "Penny: web-od-29102026 – 34 akcí na webu",
   "Lidl: leták akcni-letak-od-pondeli-26-10-27-10-2026 (2026-10-26–2026-11-01), 47 stran",
