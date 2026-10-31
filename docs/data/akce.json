@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-30T04:54+00:00",
- "today": "2026-10-30",
+ "updated": "2026-10-31T04:52+00:00",
+ "today": "2026-10-31",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,41 +310,6 @@
    "lng": 15.8176357
   },
   {
-   "id": "penny:3-501757",
-   "chain": "penny",
-   "where": "Nové Město nad Metují, T. G. Masaryka 2002",
-   "lat": 50.35941,
-   "lng": 16.14758
-  },
-  {
-   "id": "penny:3-501049",
-   "chain": "penny",
-   "where": "Jaroměř, Na kameni 23",
-   "lat": 50.35667,
-   "lng": 15.91556
-  },
-  {
-   "id": "penny:3-501135",
-   "chain": "penny",
-   "where": "Hronov, Hostovského 967",
-   "lat": 50.47182,
-   "lng": 16.18128
-  },
-  {
-   "id": "penny:3-501145",
-   "chain": "penny",
-   "where": "Červený Kostelec, 5. května 1238",
-   "lat": 50.47651,
-   "lng": 16.0894
-  },
-  {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
-  },
-  {
    "id": "penny:3-501551",
    "chain": "penny",
    "where": "Jaroměř, Na Cihelách 13",
@@ -399,6 +364,41 @@
    "where": "Náchod, Pražská 373",
    "lat": 50.40861,
    "lng": 16.15778
+  },
+  {
+   "id": "penny:3-501757",
+   "chain": "penny",
+   "where": "Nové Město nad Metují, T. G. Masaryka 2002",
+   "lat": 50.35941,
+   "lng": 16.14758
+  },
+  {
+   "id": "penny:3-501049",
+   "chain": "penny",
+   "where": "Jaroměř, Na kameni 23",
+   "lat": 50.35667,
+   "lng": 15.91556
+  },
+  {
+   "id": "penny:3-501135",
+   "chain": "penny",
+   "where": "Hronov, Hostovského 967",
+   "lat": 50.47182,
+   "lng": 16.18128
+  },
+  {
+   "id": "penny:3-501145",
+   "chain": "penny",
+   "where": "Červený Kostelec, 5. května 1238",
+   "lat": 50.47651,
+   "lng": 16.0894
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
   }
  ],
  "offers": [
@@ -472,6 +472,26 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "00125711",
+   "p": "brambory"
+  },
+  {
+   "chain": "penny",
+   "name": "Halušky bramborové mražené Vinica",
+   "price": 59.9,
+   "orig": null,
+   "pct": null,
+   "card": 44.9,
+   "q": 1.0,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-10",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-143003",
    "p": "brambory"
   },
   {
@@ -1539,11 +1559,31 @@
    "p": "kava"
   },
   {
-   "chain": "kaufland",
-   "name": "Kuřecí prsní řízky",
-   "price": 139.9,
+   "chain": "penny",
+   "name": "Káva mletá Tchibo Exclusive",
+   "price": 89.9,
    "orig": null,
    "pct": null,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-10",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-502126",
+   "p": "kava"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Kuřecí prsní řízky",
+   "price": 129.9,
+   "orig": 139.9,
+   "pct": 7,
    "card": null,
    "q": 1.0,
    "u": "kg",
@@ -2899,6 +2939,26 @@
    "p": "syr"
   },
   {
+   "chain": "penny",
+   "name": "Sýr Edam 45% Milkeria",
+   "price": 16.9,
+   "orig": 19.9,
+   "pct": 15,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-10",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-209439",
+   "p": "syr"
+  },
+  {
    "chain": "kaufland",
    "name": "Freee Fusilli z kukuřičné a rýžové mouky",
    "price": 49.9,
@@ -3068,6 +3128,26 @@
   },
   {
    "chain": "penny",
+   "name": "Tvaroh polotučný Karlova Koruna",
+   "price": 12.9,
+   "orig": 19.9,
+   "pct": 35,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-10",
+   "limit": null,
+   "stores": null,
+   "only": null,
+   "source": "penny-web",
+   "url": "https://www.penny.cz/nabidky",
+   "rawId": "88-205597",
+   "p": "tvaroh"
+  },
+  {
+   "chain": "penny",
    "name": "Vejce čerstvá M z podestýlky Karlova Koruna",
    "price": 29.9,
    "orig": 49.9,
@@ -3090,12 +3170,12 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 860,
+   "count": 859,
    "warning": null
   },
   "penny": {
    "ok": true,
-   "count": 34,
+   "count": 64,
    "warning": null
   },
   "lidl": {

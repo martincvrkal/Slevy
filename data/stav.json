@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-30T04:54+00:00",
+ "updated": "2026-10-31T04:52+00:00",
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 860,
+   "count": 859,
    "warning": null
   },
   "penny": {
    "ok": true,
-   "count": 34,
+   "count": 64,
    "warning": null
   },
   "lidl": {
@@ -19,10 +19,11 @@
  },
  "log": [
   "Kaufland: 3 prodejen v okolí",
-  "Kaufland: 877 akcí na webu, 860 platí v okolí",
+  "Kaufland: 876 akcí na webu, 859 platí v okolí",
   "Penny: 13 prodejen v okolí",
+  "Penny: web-od-04112026 – 30 akcí na webu",
   "Penny: web-od-29102026 – 34 akcí na webu",
-  "Lidl: leták akcni-letak-od-pondeli-26-10-27-10-2026 (2026-10-26–2026-11-01), 47 stran",
+  "Lidl: leták akcni-letak-od-ctvrtka-29-10-1-11-2026 (2026-10-29–2026-11-01), 57 stran",
   "Lidl: chybí ANTHROPIC_API_KEY, leták se nečte"
  ]
 }
