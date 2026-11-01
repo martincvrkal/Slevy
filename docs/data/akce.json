@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-31T04:52+00:00",
- "today": "2026-10-31",
+ "updated": "2026-11-01T04:56+00:00",
+ "today": "2026-11-01",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,6 +310,34 @@
    "lng": 15.8176357
   },
   {
+   "id": "penny:3-501049",
+   "chain": "penny",
+   "where": "Jaroměř, Na kameni 23",
+   "lat": 50.35667,
+   "lng": 15.91556
+  },
+  {
+   "id": "penny:3-501135",
+   "chain": "penny",
+   "where": "Hronov, Hostovského 967",
+   "lat": 50.47182,
+   "lng": 16.18128
+  },
+  {
+   "id": "penny:3-501145",
+   "chain": "penny",
+   "where": "Červený Kostelec, 5. května 1238",
+   "lat": 50.47651,
+   "lng": 16.0894
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
+  },
+  {
    "id": "penny:3-501551",
    "chain": "penny",
    "where": "Jaroměř, Na Cihelách 13",
@@ -371,34 +399,6 @@
    "where": "Nové Město nad Metují, T. G. Masaryka 2002",
    "lat": 50.35941,
    "lng": 16.14758
-  },
-  {
-   "id": "penny:3-501049",
-   "chain": "penny",
-   "where": "Jaroměř, Na kameni 23",
-   "lat": 50.35667,
-   "lng": 15.91556
-  },
-  {
-   "id": "penny:3-501135",
-   "chain": "penny",
-   "where": "Hronov, Hostovského 967",
-   "lat": 50.47182,
-   "lng": 16.18128
-  },
-  {
-   "id": "penny:3-501145",
-   "chain": "penny",
-   "where": "Červený Kostelec, 5. května 1238",
-   "lat": 50.47651,
-   "lng": 16.0894
-  },
-  {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
   }
  ],
  "offers": [
