@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T05:00+00:00",
- "today": "2026-11-03",
+ "updated": "2026-11-04T05:05+00:00",
+ "today": "2026-11-04",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,41 +310,6 @@
    "lng": 15.8176357
   },
   {
-   "id": "penny:3-501084",
-   "chain": "penny",
-   "where": "Dvůr Králové, 17. Listopadu 3018",
-   "lat": 50.42889,
-   "lng": 15.81778
-  },
-  {
-   "id": "penny:3-501108",
-   "chain": "penny",
-   "where": "Dobruška, Solnická 59",
-   "lat": 50.28893,
-   "lng": 16.16744
-  },
-  {
-   "id": "penny:3-501787",
-   "chain": "penny",
-   "where": "Police nad Metují, Komenského nám. 110",
-   "lat": 50.53944,
-   "lng": 16.23267
-  },
-  {
-   "id": "penny:3-501789",
-   "chain": "penny",
-   "where": "Úpice, Revoluční 1117",
-   "lat": 50.51373,
-   "lng": 16.01212
-  },
-  {
-   "id": "penny:3-501793",
-   "chain": "penny",
-   "where": "Česká Skalice, T. G. Masaryka 864",
-   "lat": 50.39614,
-   "lng": 16.04699
-  },
-  {
    "id": "penny:3-501731",
    "chain": "penny",
    "where": "Náchod, Pražská 373",
@@ -399,6 +364,41 @@
    "where": "Broumov, U Dolní Brány 313",
    "lat": 50.58316,
    "lng": 16.33339
+  },
+  {
+   "id": "penny:3-501084",
+   "chain": "penny",
+   "where": "Dvůr Králové, 17. Listopadu 3018",
+   "lat": 50.42889,
+   "lng": 15.81778
+  },
+  {
+   "id": "penny:3-501108",
+   "chain": "penny",
+   "where": "Dobruška, Solnická 59",
+   "lat": 50.28893,
+   "lng": 16.16744
+  },
+  {
+   "id": "penny:3-501787",
+   "chain": "penny",
+   "where": "Police nad Metují, Komenského nám. 110",
+   "lat": 50.53944,
+   "lng": 16.23267
+  },
+  {
+   "id": "penny:3-501789",
+   "chain": "penny",
+   "where": "Úpice, Revoluční 1117",
+   "lat": 50.51373,
+   "lng": 16.01212
+  },
+  {
+   "id": "penny:3-501793",
+   "chain": "penny",
+   "where": "Česká Skalice, T. G. Masaryka 864",
+   "lat": 50.39614,
+   "lng": 16.04699
   }
  ],
  "offers": [
@@ -2024,6 +2024,30 @@
   },
   {
    "chain": "kaufland",
+   "name": "K-Jarmark jogurt ve skle různé druhy",
+   "price": 15.9,
+   "orig": 19.9,
+   "pct": 20,
+   "card": null,
+   "q": 0.2,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "20787596",
+   "p": "jogurt"
+  },
+  {
+   "chain": "kaufland",
    "name": "K-Jarmark Jogurt ochucený",
    "price": 7.9,
    "orig": 9.9,
@@ -3380,6 +3404,30 @@
   },
   {
    "chain": "kaufland",
+   "name": "Kostelecké uzeniny Javořické párky premium",
+   "price": 15.9,
+   "orig": 24.9,
+   "pct": 36,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00103595",
+   "p": "parky"
+  },
+  {
+   "chain": "kaufland",
    "name": "Choceňské Tradiční pomazánkové XXL natur",
    "price": 39.9,
    "orig": null,
@@ -4076,6 +4124,54 @@
   },
   {
    "chain": "kaufland",
+   "name": "Prantl Chilli šunka",
+   "price": 22.9,
+   "orig": 28.9,
+   "pct": 20,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00103611",
+   "p": "sunka"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Bivoj Free šunka",
+   "price": 33.9,
+   "orig": 47.9,
+   "pct": 29,
+   "card": null,
+   "q": 0.15,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00122983",
+   "p": "sunka"
+  },
+  {
+   "chain": "kaufland",
    "name": "K-Jarmark Dušená šunka výběrová",
    "price": 19.9,
    "orig": 22.9,
@@ -4096,6 +4192,30 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "00209341",
+   "p": "sunka"
+  },
+  {
+   "chain": "kaufland",
+   "name": "K-Jarmark Šunkový salám",
+   "price": 14.9,
+   "orig": 18.9,
+   "pct": 21,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "20656532",
    "p": "sunka"
   },
   {
@@ -5224,6 +5344,54 @@
   },
   {
    "chain": "kaufland",
+   "name": "K-Bio Mozzarella sýr ve slaném nálevu",
+   "price": 28.9,
+   "orig": 36.9,
+   "pct": 21,
+   "card": null,
+   "q": 0.125,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-12-01",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "20602541",
+   "p": "syr"
+  },
+  {
+   "chain": "kaufland",
+   "name": "K-Classic Camembert zrající sýr s bílou plísní",
+   "price": 23.9,
+   "orig": 27.9,
+   "pct": 14,
+   "card": null,
+   "q": 0.12,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-06",
+   "to": "2026-11-08",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00505960",
+   "p": "syr"
+  },
+  {
+   "chain": "kaufland",
    "name": "K-Classic Tavený plátkový sýr",
    "price": 24.9,
    "orig": 28.9,
@@ -5810,13 +5978,13 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1949,
+   "count": 1135,
    "warning": null
   },
   "penny": {
    "ok": true,
-   "count": 64,
-   "warning": null
+   "count": 30,
+   "warning": "počet akcí klesl z 64 na 30"
   },
   "lidl": {
    "ok": true,
