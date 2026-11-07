@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-06T05:04+00:00",
- "today": "2026-11-06",
+ "updated": "2026-11-07T04:57+00:00",
+ "today": "2026-11-07",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,48 +310,6 @@
    "lng": 15.8176357
   },
   {
-   "id": "penny:3-501757",
-   "chain": "penny",
-   "where": "Nové Město nad Metují, T. G. Masaryka 2002",
-   "lat": 50.35941,
-   "lng": 16.14758
-  },
-  {
-   "id": "penny:3-501049",
-   "chain": "penny",
-   "where": "Jaroměř, Na kameni 23",
-   "lat": 50.35667,
-   "lng": 15.91556
-  },
-  {
-   "id": "penny:3-501135",
-   "chain": "penny",
-   "where": "Hronov, Hostovského 967",
-   "lat": 50.47182,
-   "lng": 16.18128
-  },
-  {
-   "id": "penny:3-501145",
-   "chain": "penny",
-   "where": "Červený Kostelec, 5. května 1238",
-   "lat": 50.47651,
-   "lng": 16.0894
-  },
-  {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
-  },
-  {
-   "id": "penny:3-501551",
-   "chain": "penny",
-   "where": "Jaroměř, Na Cihelách 13",
-   "lat": 50.34926,
-   "lng": 15.91231
-  },
-  {
    "id": "penny:3-501567",
    "chain": "penny",
    "where": "Broumov, U Dolní Brány 313",
@@ -399,6 +357,48 @@
    "where": "Náchod, Pražská 373",
    "lat": 50.40861,
    "lng": 16.15778
+  },
+  {
+   "id": "penny:3-501757",
+   "chain": "penny",
+   "where": "Nové Město nad Metují, T. G. Masaryka 2002",
+   "lat": 50.35941,
+   "lng": 16.14758
+  },
+  {
+   "id": "penny:3-501049",
+   "chain": "penny",
+   "where": "Jaroměř, Na kameni 23",
+   "lat": 50.35667,
+   "lng": 15.91556
+  },
+  {
+   "id": "penny:3-501135",
+   "chain": "penny",
+   "where": "Hronov, Hostovského 967",
+   "lat": 50.47182,
+   "lng": 16.18128
+  },
+  {
+   "id": "penny:3-501145",
+   "chain": "penny",
+   "where": "Červený Kostelec, 5. května 1238",
+   "lat": 50.47651,
+   "lng": 16.0894
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
+  },
+  {
+   "id": "penny:3-501551",
+   "chain": "penny",
+   "where": "Jaroměř, Na Cihelách 13",
+   "lat": 50.34926,
+   "lng": 15.91231
   }
  ],
  "offers": [
@@ -2757,9 +2757,9 @@
   {
    "chain": "kaufland",
    "name": "Kuřecí mix prsní řízky a stehna",
-   "price": 119.9,
-   "orig": null,
-   "pct": null,
+   "price": 99.9,
+   "orig": 119.9,
+   "pct": 16,
    "card": null,
    "q": 1.0,
    "u": "kg",
@@ -2852,6 +2852,30 @@
   },
   {
    "chain": "kaufland",
+   "name": "K-Bio Máslo",
+   "price": 59.9,
+   "orig": 69.9,
+   "pct": 14,
+   "card": null,
+   "q": 0.2,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-12-01",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00162583",
+   "p": "maslo"
+  },
+  {
+   "chain": "kaufland",
    "name": "Tatra Máslo",
    "price": 34.9,
    "orig": 52.9,
@@ -2876,16 +2900,16 @@
   },
   {
    "chain": "kaufland",
-   "name": "K-Bio Máslo",
-   "price": 59.9,
-   "orig": 69.9,
-   "pct": 14,
+   "name": "Tatra Máslo",
+   "price": 34.9,
+   "orig": null,
+   "pct": null,
    "card": null,
-   "q": 0.2,
+   "q": 0.25,
    "u": "kg",
    "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-12-01",
+   "from": "2026-11-07",
+   "to": "2026-11-08",
    "limit": null,
    "stores": [
     "kaufland:CZ1410",
@@ -2895,7 +2919,7 @@
    "only": null,
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00162583",
+   "rawId": "00074941",
    "p": "maslo"
   },
   {
