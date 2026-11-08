@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-07T04:57+00:00",
- "today": "2026-11-07",
+ "updated": "2026-11-08T04:58+00:00",
+ "today": "2026-11-08",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -6002,7 +6002,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1135,
+   "count": 1134,
    "warning": null
   },
   "penny": {
