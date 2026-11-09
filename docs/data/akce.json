@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T04:58+00:00",
- "today": "2026-11-08",
+ "updated": "2026-11-09T05:14+00:00",
+ "today": "2026-11-09",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -1713,9 +1713,9 @@
   {
    "chain": "kaufland",
    "name": "Můj Skyr Jogurt islandského typu",
-   "price": 14.9,
+   "price": 12.9,
    "orig": 20.9,
-   "pct": 28,
+   "pct": 38,
    "card": null,
    "q": 0.13,
    "u": "kg",
@@ -1809,9 +1809,9 @@
   {
    "chain": "kaufland",
    "name": "Olma Řecký jogurt tuk 0,8 %/1 %, různé druhy",
-   "price": 13.5,
+   "price": 11.9,
    "orig": 19.9,
-   "pct": 32,
+   "pct": 40,
    "card": null,
    "q": 0.14,
    "u": "kg",
@@ -6002,7 +6002,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1134,
+   "count": 1099,
    "warning": null
   },
   "penny": {
