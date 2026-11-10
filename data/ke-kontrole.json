@@ -268,5 +268,248 @@
   "problems": [
    "neočekávaná jednotka ks"
   ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Tatra Salko Zahuštěné slazené mléko",
+  "price": 34.9,
+  "orig": 69.9,
+  "pct": 50,
+  "card": null,
+  "q": 0.397,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00400074",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "K-Classic Vafle z čerstvých vajec",
+  "price": 34.9,
+  "orig": 41.9,
+  "pct": 16,
+  "card": null,
+  "q": 0.25,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "02914760",
+  "p": "vejce",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Bohemia Z pece Bramborový snack Mořská sůl",
+  "price": 29.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 0.1,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20824203",
+  "p": "brambory",
+  "problems": [
+   "cena 299.00 Kč/kg mimo rozsah 5–70"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "POM-BÄR Bramborový snack",
+  "price": 39.9,
+  "orig": 54.9,
+  "pct": 27,
+  "card": 34.9,
+  "q": 0.11,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00108763",
+  "p": "brambory",
+  "problems": [
+   "cena 362.73 Kč/kg mimo rozsah 5–70"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Hello Šťáva jablko",
+  "price": 24.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00040509",
+  "p": "jablka",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Radegast Ryze hořká 12 Pivo světlý ležák",
+  "price": 21.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 0.5,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00044619",
+  "p": "ryze",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Vaječný Sen Likér různé druhy",
+  "price": 89.9,
+  "orig": 159.9,
+  "pct": 43,
+  "card": null,
+  "q": 0.5,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00111514",
+  "p": "vejce",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "LIVARNO Vonná svíčka 370 g, jablko",
+  "price": 129.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "ks",
+  "perUnit": true,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20980471",
+  "p": "jablka",
+  "problems": [
+   "neočekávaná jednotka ks"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "SILVERCREST Konvička na čaj 1,2 l",
+  "price": 189.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "ks",
+  "perUnit": true,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20987253",
+  "p": "caj",
+  "problems": [
+   "neočekávaná jednotka ks"
+  ]
  }
 ]
