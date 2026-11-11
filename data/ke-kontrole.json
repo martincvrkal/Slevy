@@ -1,276 +1,6 @@
 [
  {
   "chain": "kaufland",
-  "name": "Jablko granátové",
-  "price": 19.9,
-  "orig": 34.9,
-  "pct": 42,
-  "card": null,
-  "q": 1.0,
-  "u": "ks",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "09701168",
-  "p": "jablka",
-  "problems": [
-   "neočekávaná jednotka ks"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Tatra Piknik/Pikao/Jesenka Zahuštěné slazené mléko/ smetana",
-  "price": 18.9,
-  "orig": 32.9,
-  "pct": 42,
-  "card": null,
-  "q": 0.075,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "00406635",
-  "p": "mleko",
-  "problems": [
-   "neočekávaná jednotka kg"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Danone Actimel Jogurtové mléko s L. casei různé druhy",
-  "price": 59.9,
-  "orig": 134.9,
-  "pct": 55,
-  "card": null,
-  "q": 0.8,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "00408202",
-  "p": "mleko",
-  "problems": [
-   "neočekávaná jednotka kg"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Šáteček s vanilkou a jablky",
-  "price": 16.9,
-  "orig": null,
-  "pct": null,
-  "card": null,
-  "q": 0.112,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "20943649",
-  "p": "jablka",
-  "problems": [
-   "cena 150.89 Kč/kg mimo rozsah 10–120"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "K-Classic Marcipánové brambory",
-  "price": 29.9,
-  "orig": 44.9,
-  "pct": 33,
-  "card": null,
-  "q": 0.125,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "00128988",
-  "p": "brambory",
-  "problems": [
-   "cena 239.20 Kč/kg mimo rozsah 5–70"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Tatra Piknik/Pikao/Jesenka zahuštěné mléko",
-  "price": 28.9,
-  "orig": 46.9,
-  "pct": 38,
-  "card": null,
-  "q": 0.14,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-17",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "00109372",
-  "p": "mleko",
-  "problems": [
-   "neočekávaná jednotka kg"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Sunar Kojenecké mléko",
-  "price": 379.9,
-  "orig": 449.9,
-  "pct": 15,
-  "card": null,
-  "q": 0.7,
-  "u": "kg",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-17",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "20673341",
-  "p": "mleko",
-  "problems": [
-   "neočekávaná jednotka kg"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Dilmah Černý čaj s příchutí broskve",
-  "price": 24.9,
-  "orig": null,
-  "pct": null,
-  "card": null,
-  "q": 0.5,
-  "u": "l",
-  "perUnit": false,
-  "from": "2026-11-04",
-  "to": "2026-11-17",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "20958001",
-  "p": "caj",
-  "problems": [
-   "neočekávaná jednotka l"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "Lupilu Dřevěná železnice Zábavní park",
-  "price": 719.9,
-  "orig": null,
-  "pct": null,
-  "card": null,
-  "q": 1.0,
-  "u": "ks",
-  "perUnit": true,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "20977564",
-  "p": "parky",
-  "problems": [
-   "neočekávaná jednotka ks"
-  ]
- },
- {
-  "chain": "kaufland",
-  "name": "SILVERCREST Chlebník",
-  "price": 299.9,
-  "orig": null,
-  "pct": null,
-  "card": null,
-  "q": 1.0,
-  "u": "ks",
-  "perUnit": true,
-  "from": "2026-11-04",
-  "to": "2026-11-10",
-  "limit": null,
-  "stores": [
-   "kaufland:CZ1410",
-   "kaufland:CZ1850",
-   "kaufland:CZ4410"
-  ],
-  "only": null,
-  "source": "kaufland-web",
-  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-  "rawId": "20990907",
-  "p": "chleb",
-  "problems": [
-   "neočekávaná jednotka ks"
-  ]
- },
- {
-  "chain": "kaufland",
   "name": "Tatra Salko Zahuštěné slazené mléko",
   "price": 34.9,
   "orig": 69.9,
@@ -487,6 +217,87 @@
  },
  {
   "chain": "kaufland",
+  "name": "Tatra Piknik/Pikao/Jesenka zahuštěné mléko",
+  "price": 28.9,
+  "orig": 46.9,
+  "pct": 38,
+  "card": null,
+  "q": 0.14,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-04",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00109372",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Sunar Kojenecké mléko",
+  "price": 379.9,
+  "orig": 449.9,
+  "pct": 15,
+  "card": null,
+  "q": 0.7,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-04",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20673341",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Dilmah Černý čaj s příchutí broskve",
+  "price": 24.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 0.5,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-04",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20958001",
+  "p": "caj",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
   "name": "SILVERCREST Konvička na čaj 1,2 l",
   "price": 189.9,
   "orig": null,
@@ -510,6 +321,52 @@
   "p": "caj",
   "problems": [
    "neočekávaná jednotka ks"
+  ]
+ },
+ {
+  "chain": "penny",
+  "name": "Bramborový snack Strašidýlka Solty",
+  "price": 19.9,
+  "orig": null,
+  "pct": null,
+  "card": 9.9,
+  "q": 0.055,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": null,
+  "only": null,
+  "source": "penny-web",
+  "url": "https://www.penny.cz/nabidky",
+  "rawId": "88-201511",
+  "p": "brambory",
+  "problems": [
+   "cena 361.82 Kč/kg mimo rozsah 5–70"
+  ]
+ },
+ {
+  "chain": "penny",
+  "name": "Bramborový snack Strašidýlka Solty",
+  "price": 19.9,
+  "orig": null,
+  "pct": null,
+  "card": 9.9,
+  "q": 0.055,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-11",
+  "to": "2026-11-17",
+  "limit": null,
+  "stores": null,
+  "only": null,
+  "source": "penny-web",
+  "url": "https://www.penny.cz/nabidky",
+  "rawId": "88-206449",
+  "p": "brambory",
+  "problems": [
+   "cena 361.82 Kč/kg mimo rozsah 5–70"
   ]
  }
 ]
