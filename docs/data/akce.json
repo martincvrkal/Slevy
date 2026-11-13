@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T05:08+00:00",
- "today": "2026-11-12",
+ "updated": "2026-11-13T05:06+00:00",
+ "today": "2026-11-13",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -387,18 +387,18 @@
    "lng": 16.0894
   },
   {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
-  },
-  {
    "id": "penny:3-501551",
    "chain": "penny",
    "where": "Jaroměř, Na Cihelách 13",
    "lat": 50.34926,
    "lng": 15.91231
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
   }
  ],
  "offers": [
@@ -3832,6 +3832,30 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "00600130",
+   "p": "maslo"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Tatra Máslo",
+   "price": 52.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-13",
+   "to": "2026-11-15",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00074941",
    "p": "maslo"
   },
   {
@@ -8246,7 +8270,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1038,
+   "count": 1039,
    "warning": null
   },
   "penny": {
