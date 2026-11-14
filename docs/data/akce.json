@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T05:06+00:00",
- "today": "2026-11-13",
+ "updated": "2026-11-14T04:59+00:00",
+ "today": "2026-11-14",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,13 +310,6 @@
    "lng": 15.8176357
   },
   {
-   "id": "penny:3-501567",
-   "chain": "penny",
-   "where": "Broumov, U Dolní Brány 313",
-   "lat": 50.58316,
-   "lng": 16.33339
-  },
-  {
    "id": "penny:3-501084",
    "chain": "penny",
    "where": "Dvůr Králové, 17. Listopadu 3018",
@@ -387,6 +380,13 @@
    "lng": 16.0894
   },
   {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
+  },
+  {
    "id": "penny:3-501551",
    "chain": "penny",
    "where": "Jaroměř, Na Cihelách 13",
@@ -394,11 +394,11 @@
    "lng": 15.91231
   },
   {
-   "id": "penny:3-501186",
+   "id": "penny:3-501567",
    "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
+   "where": "Broumov, U Dolní Brány 313",
+   "lat": 50.58316,
+   "lng": 16.33339
   }
  ],
  "offers": [
@@ -3837,9 +3837,9 @@
   {
    "chain": "kaufland",
    "name": "Tatra Máslo",
-   "price": 52.9,
-   "orig": null,
-   "pct": null,
+   "price": 29.9,
+   "orig": 52.9,
+   "pct": 43,
    "card": null,
    "q": 0.25,
    "u": "kg",
@@ -8270,7 +8270,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1039,
+   "count": 1038,
    "warning": null
   },
   "penny": {
