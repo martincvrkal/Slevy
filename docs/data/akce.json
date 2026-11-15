@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-14T04:59+00:00",
- "today": "2026-11-14",
+ "updated": "2026-11-15T05:01+00:00",
+ "today": "2026-11-15",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,6 +310,20 @@
    "lng": 15.8176357
   },
   {
+   "id": "penny:3-501551",
+   "chain": "penny",
+   "where": "Jaroměř, Na Cihelách 13",
+   "lat": 50.34926,
+   "lng": 15.91231
+  },
+  {
+   "id": "penny:3-501567",
+   "chain": "penny",
+   "where": "Broumov, U Dolní Brány 313",
+   "lat": 50.58316,
+   "lng": 16.33339
+  },
+  {
    "id": "penny:3-501084",
    "chain": "penny",
    "where": "Dvůr Králové, 17. Listopadu 3018",
@@ -385,20 +399,6 @@
    "where": "Náchod, Běloveská 2085",
    "lat": 50.41796,
    "lng": 16.17687
-  },
-  {
-   "id": "penny:3-501551",
-   "chain": "penny",
-   "where": "Jaroměř, Na Cihelách 13",
-   "lat": 50.34926,
-   "lng": 15.91231
-  },
-  {
-   "id": "penny:3-501567",
-   "chain": "penny",
-   "where": "Broumov, U Dolní Brány 313",
-   "lat": 50.58316,
-   "lng": 16.33339
   }
  ],
  "offers": [
