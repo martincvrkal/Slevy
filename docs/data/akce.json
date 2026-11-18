@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T05:06+00:00",
- "today": "2026-11-17",
+ "updated": "2026-11-18T05:10+00:00",
+ "today": "2026-11-18",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -784,30 +784,6 @@
   },
   {
    "chain": "kaufland",
-   "name": "Teekanne Ovocný čaj",
-   "price": 32.9,
-   "orig": null,
-   "pct": null,
-   "card": null,
-   "q": 0.03,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00016564",
-   "p": "caj"
-  },
-  {
-   "chain": "kaufland",
    "name": "K-Bio Bylinný čaj",
    "price": 29.9,
    "orig": 37.9,
@@ -828,6 +804,30 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "20428526",
+   "p": "caj"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Teekanne Ovocný čaj",
+   "price": 32.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.03,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00016564",
    "p": "caj"
   },
   {
@@ -1352,30 +1352,6 @@
   },
   {
    "chain": "kaufland",
-   "name": "Kváskový chléb pšeničnožitný",
-   "price": 29.9,
-   "orig": 44.9,
-   "pct": 33,
-   "card": null,
-   "q": 0.4,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "20722483",
-   "p": "chleb"
-  },
-  {
-   "chain": "kaufland",
    "name": "Schär Pan Blanco bezlepkový chléb",
    "price": 49.9,
    "orig": 57.9,
@@ -1396,6 +1372,30 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "20035880",
+   "p": "chleb"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Kváskový chléb pšeničnožitný",
+   "price": 29.9,
+   "orig": 44.9,
+   "pct": 33,
+   "card": null,
+   "q": 0.4,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "20722483",
    "p": "chleb"
   },
   {
@@ -2384,6 +2384,54 @@
   },
   {
    "chain": "kaufland",
+   "name": "K-Bio Jogurt bílý",
+   "price": 10.9,
+   "orig": 13.9,
+   "pct": 21,
+   "card": null,
+   "q": 0.15,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-12-01",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00076881",
+   "p": "jogurt"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Hollandia Jogurt bílý bezlaktózový",
+   "price": 10.9,
+   "orig": 17.9,
+   "pct": 39,
+   "card": null,
+   "q": 0.18,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-12-01",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00092024",
+   "p": "jogurt"
+  },
+  {
+   "chain": "kaufland",
    "name": "Danone Kostíci Jogurt",
    "price": 14.9,
    "orig": 19.9,
@@ -2452,54 +2500,6 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "00408631",
-   "p": "jogurt"
-  },
-  {
-   "chain": "kaufland",
-   "name": "K-Bio Jogurt bílý",
-   "price": 10.9,
-   "orig": 13.9,
-   "pct": 21,
-   "card": null,
-   "q": 0.15,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-12-01",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00076881",
-   "p": "jogurt"
-  },
-  {
-   "chain": "kaufland",
-   "name": "Hollandia Jogurt bílý bezlaktózový",
-   "price": 10.9,
-   "orig": 17.9,
-   "pct": 39,
-   "card": null,
-   "q": 0.18,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-12-01",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00092024",
    "p": "jogurt"
   },
   {
@@ -7812,78 +7812,6 @@
   },
   {
    "chain": "kaufland",
-   "name": "Madeta Jihočeské Lipno tavený sýr",
-   "price": 36.9,
-   "orig": 42.9,
-   "pct": 13,
-   "card": null,
-   "q": 0.14,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00017546",
-   "p": "syr"
-  },
-  {
-   "chain": "kaufland",
-   "name": "Veselá kráva Tavený sýr",
-   "price": 34.9,
-   "orig": 49.9,
-   "pct": 30,
-   "card": null,
-   "q": 0.12,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00096198",
-   "p": "syr"
-  },
-  {
-   "chain": "kaufland",
-   "name": "Jaroměřické žervé Čerstvý sýr termizovaný",
-   "price": 26.9,
-   "orig": 36.9,
-   "pct": 27,
-   "card": null,
-   "q": 0.15,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00507912",
-   "p": "syr"
-  },
-  {
-   "chain": "kaufland",
    "name": "K-FREE Čerstvý sýr s nízkým obsahem laktózy",
    "price": 26.9,
    "orig": 36.9,
@@ -7952,6 +7880,78 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "20602541",
+   "p": "syr"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Madeta Jihočeské Lipno tavený sýr",
+   "price": 36.9,
+   "orig": 42.9,
+   "pct": 13,
+   "card": null,
+   "q": 0.14,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00017546",
+   "p": "syr"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Veselá kráva Tavený sýr",
+   "price": 34.9,
+   "orig": 49.9,
+   "pct": 30,
+   "card": null,
+   "q": 0.12,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00096198",
+   "p": "syr"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Jaroměřické žervé Čerstvý sýr termizovaný",
+   "price": 26.9,
+   "orig": 36.9,
+   "pct": 27,
+   "card": null,
+   "q": 0.15,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00507912",
    "p": "syr"
   },
   {
@@ -9544,30 +9544,6 @@
   },
   {
    "chain": "kaufland",
-   "name": "Povar Pelmeni Plněné těstoviny",
-   "price": 43.9,
-   "orig": null,
-   "pct": null,
-   "card": null,
-   "q": 0.4,
-   "u": "kg",
-   "perUnit": false,
-   "from": "2026-11-04",
-   "to": "2026-11-17",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "00807290",
-   "p": "testoviny"
-  },
-  {
-   "chain": "kaufland",
    "name": "K-Bio Špaldové špagety celozrnné",
    "price": 39.9,
    "orig": 49.9,
@@ -9588,6 +9564,30 @@
    "source": "kaufland-web",
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "00163268",
+   "p": "testoviny"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Povar Pelmeni Plněné těstoviny",
+   "price": 43.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.4,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-04",
+   "to": "2026-11-17",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00807290",
    "p": "testoviny"
   },
   {
@@ -10197,89 +10197,17 @@
    "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
    "rawId": "20658774",
    "p": "veprove"
-  },
-  {
-   "chain": "kaufland",
-   "name": "Vepřová krkovice bez kosti",
-   "price": 79.9,
-   "orig": 196.9,
-   "pct": 59,
-   "card": null,
-   "q": 1.0,
-   "u": "kg",
-   "perUnit": true,
-   "from": "2026-11-18",
-   "to": "2026-11-24",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "20277928",
-   "p": "veprove"
-  },
-  {
-   "chain": "kaufland",
-   "name": "K-Mistři od fochu Vepřová krkovice bez kosti pultový prodej",
-   "price": 79.9,
-   "orig": 196.9,
-   "pct": 59,
-   "card": null,
-   "q": 1.0,
-   "u": "kg",
-   "perUnit": true,
-   "from": "2026-11-18",
-   "to": "2026-11-24",
-   "limit": "Jen u masového pultu",
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "63000144",
-   "p": "veprove"
-  },
-  {
-   "chain": "kaufland",
-   "name": "K-Mistři od fochu Vepřová kýta bez kosti, v celku",
-   "price": 69.9,
-   "orig": 203.9,
-   "pct": 65,
-   "card": null,
-   "q": 1.0,
-   "u": "kg",
-   "perUnit": true,
-   "from": "2026-11-18",
-   "to": "2026-11-24",
-   "limit": null,
-   "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
-    "kaufland:CZ4410"
-   ],
-   "only": null,
-   "source": "kaufland-web",
-   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
-   "rawId": "63000396",
-   "p": "veprove"
   }
  ],
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1820,
-   "warning": null
+   "count": 868,
+   "warning": "počet akcí klesl z 1820 na 868"
   },
   "penny": {
    "ok": true,
-   "count": 67,
+   "count": 34,
    "warning": null
   },
   "lidl": {
