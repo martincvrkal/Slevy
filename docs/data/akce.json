@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T05:10+00:00",
- "today": "2026-11-18",
+ "updated": "2026-11-19T05:14+00:00",
+ "today": "2026-11-19",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,6 +310,41 @@
    "lng": 15.8176357
   },
   {
+   "id": "penny:3-501049",
+   "chain": "penny",
+   "where": "Jaroměř, Na kameni 23",
+   "lat": 50.35667,
+   "lng": 15.91556
+  },
+  {
+   "id": "penny:3-501135",
+   "chain": "penny",
+   "where": "Hronov, Hostovského 967",
+   "lat": 50.47182,
+   "lng": 16.18128
+  },
+  {
+   "id": "penny:3-501145",
+   "chain": "penny",
+   "where": "Červený Kostelec, 5. května 1238",
+   "lat": 50.47651,
+   "lng": 16.0894
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
+  },
+  {
+   "id": "penny:3-501551",
+   "chain": "penny",
+   "where": "Jaroměř, Na Cihelách 13",
+   "lat": 50.34926,
+   "lng": 15.91231
+  },
+  {
    "id": "penny:3-501567",
    "chain": "penny",
    "where": "Broumov, U Dolní Brány 313",
@@ -364,41 +399,6 @@
    "where": "Nové Město nad Metují, T. G. Masaryka 2002",
    "lat": 50.35941,
    "lng": 16.14758
-  },
-  {
-   "id": "penny:3-501049",
-   "chain": "penny",
-   "where": "Jaroměř, Na kameni 23",
-   "lat": 50.35667,
-   "lng": 15.91556
-  },
-  {
-   "id": "penny:3-501135",
-   "chain": "penny",
-   "where": "Hronov, Hostovského 967",
-   "lat": 50.47182,
-   "lng": 16.18128
-  },
-  {
-   "id": "penny:3-501145",
-   "chain": "penny",
-   "where": "Červený Kostelec, 5. května 1238",
-   "lat": 50.47651,
-   "lng": 16.0894
-  },
-  {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
-  },
-  {
-   "id": "penny:3-501551",
-   "chain": "penny",
-   "where": "Jaroměř, Na Cihelách 13",
-   "lat": 50.34926,
-   "lng": 15.91231
   }
  ],
  "offers": [
@@ -7191,6 +7191,54 @@
    "p": "sunka"
   },
   {
+   "chain": "kaufland",
+   "name": "Krahulík Šunkový točený salám",
+   "price": 25.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-20",
+   "to": "2026-11-22",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00154455",
+   "p": "sunka"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Bivoj Baby šunka nejvyšší jakosti",
+   "price": 32.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.1,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-20",
+   "to": "2026-11-22",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00158296",
+   "p": "sunka"
+  },
+  {
    "chain": "penny",
    "name": "Šunka nejvyšší jakosti Řezníkův talíř",
    "price": 19.9,
@@ -9999,6 +10047,54 @@
    "p": "tvaroh"
   },
   {
+   "chain": "kaufland",
+   "name": "Tatra Tvaroh polotučný",
+   "price": 29.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-20",
+   "to": "2026-11-22",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00076882",
+   "p": "tvaroh"
+  },
+  {
+   "chain": "kaufland",
+   "name": "Tatra Tvaroh tučný",
+   "price": 31.9,
+   "orig": null,
+   "pct": null,
+   "card": null,
+   "q": 0.25,
+   "u": "kg",
+   "perUnit": false,
+   "from": "2026-11-20",
+   "to": "2026-11-22",
+   "limit": null,
+   "stores": [
+    "kaufland:CZ1410",
+    "kaufland:CZ1850",
+    "kaufland:CZ4410"
+   ],
+   "only": null,
+   "source": "kaufland-web",
+   "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+   "rawId": "00076883",
+   "p": "tvaroh"
+  },
+  {
    "chain": "penny",
    "name": "Tvaroh polotučný Karlova Koruna",
    "price": 12.9,
@@ -10202,8 +10298,8 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 868,
-   "warning": "počet akcí klesl z 1820 na 868"
+   "count": 870,
+   "warning": null
   },
   "penny": {
    "ok": true,
