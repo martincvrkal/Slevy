@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T05:14+00:00",
- "today": "2026-11-19",
+ "updated": "2026-11-20T05:10+00:00",
+ "today": "2026-11-20",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,41 +310,6 @@
    "lng": 15.8176357
   },
   {
-   "id": "penny:3-501049",
-   "chain": "penny",
-   "where": "Jaroměř, Na kameni 23",
-   "lat": 50.35667,
-   "lng": 15.91556
-  },
-  {
-   "id": "penny:3-501135",
-   "chain": "penny",
-   "where": "Hronov, Hostovského 967",
-   "lat": 50.47182,
-   "lng": 16.18128
-  },
-  {
-   "id": "penny:3-501145",
-   "chain": "penny",
-   "where": "Červený Kostelec, 5. května 1238",
-   "lat": 50.47651,
-   "lng": 16.0894
-  },
-  {
-   "id": "penny:3-501186",
-   "chain": "penny",
-   "where": "Náchod, Běloveská 2085",
-   "lat": 50.41796,
-   "lng": 16.17687
-  },
-  {
-   "id": "penny:3-501551",
-   "chain": "penny",
-   "where": "Jaroměř, Na Cihelách 13",
-   "lat": 50.34926,
-   "lng": 15.91231
-  },
-  {
    "id": "penny:3-501567",
    "chain": "penny",
    "where": "Broumov, U Dolní Brány 313",
@@ -399,6 +364,41 @@
    "where": "Nové Město nad Metují, T. G. Masaryka 2002",
    "lat": 50.35941,
    "lng": 16.14758
+  },
+  {
+   "id": "penny:3-501049",
+   "chain": "penny",
+   "where": "Jaroměř, Na kameni 23",
+   "lat": 50.35667,
+   "lng": 15.91556
+  },
+  {
+   "id": "penny:3-501135",
+   "chain": "penny",
+   "where": "Hronov, Hostovského 967",
+   "lat": 50.47182,
+   "lng": 16.18128
+  },
+  {
+   "id": "penny:3-501145",
+   "chain": "penny",
+   "where": "Červený Kostelec, 5. května 1238",
+   "lat": 50.47651,
+   "lng": 16.0894
+  },
+  {
+   "id": "penny:3-501186",
+   "chain": "penny",
+   "where": "Náchod, Běloveská 2085",
+   "lat": 50.41796,
+   "lng": 16.17687
+  },
+  {
+   "id": "penny:3-501551",
+   "chain": "penny",
+   "where": "Jaroměř, Na Cihelách 13",
+   "lat": 50.34926,
+   "lng": 15.91231
   }
  ],
  "offers": [
@@ -7193,9 +7193,9 @@
   {
    "chain": "kaufland",
    "name": "Krahulík Šunkový točený salám",
-   "price": 25.9,
-   "orig": null,
-   "pct": null,
+   "price": 14.9,
+   "orig": 25.9,
+   "pct": 42,
    "card": null,
    "q": 0.1,
    "u": "kg",
@@ -7217,9 +7217,9 @@
   {
    "chain": "kaufland",
    "name": "Bivoj Baby šunka nejvyšší jakosti",
-   "price": 32.9,
-   "orig": null,
-   "pct": null,
+   "price": 16.9,
+   "orig": 32.9,
+   "pct": 48,
    "card": null,
    "q": 0.1,
    "u": "kg",
@@ -10049,9 +10049,9 @@
   {
    "chain": "kaufland",
    "name": "Tatra Tvaroh polotučný",
-   "price": 29.9,
-   "orig": null,
-   "pct": null,
+   "price": 17.9,
+   "orig": 29.9,
+   "pct": 40,
    "card": null,
    "q": 0.25,
    "u": "kg",
@@ -10073,9 +10073,9 @@
   {
    "chain": "kaufland",
    "name": "Tatra Tvaroh tučný",
-   "price": 31.9,
-   "orig": null,
-   "pct": null,
+   "price": 19.9,
+   "orig": 31.9,
+   "pct": 37,
    "card": null,
    "q": 0.25,
    "u": "kg",
@@ -10298,7 +10298,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 870,
+   "count": 868,
    "warning": null
   },
   "penny": {
