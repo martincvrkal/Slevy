@@ -241,5 +241,302 @@
   "problems": [
    "nepřečtené balení"
   ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Ghost Snack Bramborový snack",
+  "price": 12.9,
+  "orig": 25.9,
+  "pct": 50,
+  "card": null,
+  "q": 0.07,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00084295",
+  "p": "brambory",
+  "problems": [
+   "cena 184.29 Kč/kg mimo rozsah 5–70"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Orion Salonky Banány",
+  "price": 119.9,
+  "orig": 159.9,
+  "pct": 25,
+  "card": null,
+  "q": 0.34,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "02601406",
+  "p": "banany",
+  "problems": [
+   "cena 352.65 Kč/kg mimo rozsah 10–90"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Moravský Vaječný Ostatní alkoholický nápoj 14 %",
+  "price": 169.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20984859",
+  "p": "vejce",
+  "problems": [
+   "neočekávaná jednotka l"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "BEBA COMFORT Dětské mléko",
+  "price": 349.9,
+  "orig": 469.9,
+  "pct": 25,
+  "card": null,
+  "q": 0.8,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00125069",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Sunar Kojenecké mléko",
+  "price": 379.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 0.7,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20673341",
+  "p": "mleko",
+  "problems": [
+   "neočekávaná jednotka kg"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Bruno Banani Dárkový balíček",
+  "price": 249.9,
+  "orig": 399.9,
+  "pct": 37,
+  "card": null,
+  "q": null,
+  "u": null,
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20972864",
+  "p": "banany",
+  "problems": [
+   "nepřečtené balení"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Danone Kostíci Jogurt",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 13.9,
+  "q": 0.07,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00070458",
+  "p": "jogurt",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Tatra Máslo",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 29.9,
+  "q": 0.25,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00074941",
+  "p": "maslo",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Pragolaktos Mléko trvanlivé",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 9.9,
+  "q": 1.0,
+  "u": "l",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00122424",
+  "p": "mleko",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Hollandia Jogurt",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 11.9,
+  "q": 0.38,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20925795",
+  "p": "jogurt",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Vonná svíčka 115 g jablko a skořice",
+  "price": 94.9,
+  "orig": null,
+  "pct": null,
+  "card": null,
+  "q": 1.0,
+  "u": "ks",
+  "perUnit": true,
+  "from": "2026-11-25",
+  "to": "2026-12-26",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "20965575",
+  "p": "jablka",
+  "problems": [
+   "neočekávaná jednotka ks"
+  ]
  }
 ]
