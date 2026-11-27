@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T05:21+00:00",
- "today": "2026-11-26",
+ "updated": "2026-11-27T05:20+00:00",
+ "today": "2026-11-27",
  "area": {
   "name": "Náchodsko",
   "center": {
@@ -310,6 +310,13 @@
    "lng": 15.8176357
   },
   {
+   "id": "penny:3-501084",
+   "chain": "penny",
+   "where": "Dvůr Králové, 17. Listopadu 3018",
+   "lat": 50.42889,
+   "lng": 15.81778
+  },
+  {
    "id": "penny:3-501108",
    "chain": "penny",
    "where": "Dobruška, Solnická 59",
@@ -392,13 +399,6 @@
    "where": "Broumov, U Dolní Brány 313",
    "lat": 50.58316,
    "lng": 16.33339
-  },
-  {
-   "id": "penny:3-501084",
-   "chain": "penny",
-   "where": "Dvůr Králové, 17. Listopadu 3018",
-   "lat": 50.42889,
-   "lng": 15.81778
   }
  ],
  "offers": [
@@ -9800,8 +9800,6 @@
    "to": "2026-12-01",
    "limit": null,
    "stores": [
-    "kaufland:CZ1410",
-    "kaufland:CZ1850",
     "kaufland:CZ4410"
    ],
    "only": null,
@@ -10138,7 +10136,7 @@
  "sources": {
   "kaufland": {
    "ok": true,
-   "count": 1225,
+   "count": 1224,
    "warning": null
   },
   "penny": {
