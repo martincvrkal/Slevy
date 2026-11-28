@@ -163,6 +163,60 @@
  },
  {
   "chain": "kaufland",
+  "name": "Tatra Máslo",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 29.9,
+  "q": 0.25,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-25",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00074941",
+  "p": "maslo",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
+  "name": "Lacrum Máslo",
+  "price": null,
+  "orig": null,
+  "pct": null,
+  "card": 29.9,
+  "q": 0.25,
+  "u": "kg",
+  "perUnit": false,
+  "from": "2026-11-27",
+  "to": "2026-12-01",
+  "limit": null,
+  "stores": [
+   "kaufland:CZ1410",
+   "kaufland:CZ1850",
+   "kaufland:CZ4410"
+  ],
+  "only": null,
+  "source": "kaufland-web",
+  "url": "https://prodejny.kaufland.cz/nabidka/prehled.html",
+  "rawId": "00133099",
+  "p": "maslo",
+  "problems": [
+   "chybí cena"
+  ]
+ },
+ {
+  "chain": "kaufland",
   "name": "Vonná svíčka 115 g jablko a skořice",
   "price": 94.9,
   "orig": null,
